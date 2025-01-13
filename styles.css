@@ -1,0 +1,495 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: Jumper;
+    src: url(JumperPERSONALUSEONLY-Bold.ttf);
+}
+@font-face {
+    font-family: Jumper2;
+    src: url(JumperPERSONALUSEONLY-Thin.ttf);
+}
+@font-face {
+    font-family: number;
+    src: url(Nexa-ExtraLight.ttf);
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Jumper2;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    padding: 0 100px;
+    background-color: #131313;
+    color: white;
+}
+
+                                             /* Header section */
+
+header{
+    padding: 40px 0 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo p{
+    font-family: "caveat";
+    font-size: 2rem;
+}
+
+.nav ul li{
+    display: inline-block;
+    margin-left: 45px;
+    font-size: .9rem; 
+}
+
+.nav ul li:hover{
+    color: #9a9a9a;
+    cursor: pointer;
+}
+.nav ul a{
+    color: white;
+    text-decoration: none;
+}
+.nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: .9rem;
+    text-align: center;
+    background: #ffffff;
+    padding: 10px 19px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.nav ul li a:hover{
+    box-shadow: 1px 1px 5px #ffffff;
+}
+                                                /* Landing Page */
+
+#landing-page{
+    min-height: 100vh;
+}
+.landing-page{
+    display: flex;
+    justify-content: space-between;
+}
+.l-content{
+    flex-basis: 50%;
+}
+.l-content h1{
+    font-family: Jumper;
+    margin: 100px 0 25px 0;
+    font-size: 2.9rem;
+    line-height: 1.2;
+    width: 100%;
+}
+.l-content p{
+    width: 98%;
+    line-height: 1.4;
+    font-size: .9rem;
+    color: #b1b1b1;
+    padding-bottom: 12px;
+    text-align: left;
+}
+.l-image{
+    width: 100%;
+    flex-basis: 42%;
+    text-align: center;
+}
+img{
+    max-width: 100%;
+    height: 410px;
+    margin-top: 60px;
+}
+
+
+                                                        /* My Services */
+
+.myservices{
+    min-height: 100vh;
+}
+.myservices h1{
+    font-size: 2.7rem;
+    padding-top: 40px ;
+    color: #e8e8e8;
+}
+
+.service-box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 110px;
+}
+.box{
+    flex-basis: 30%;
+    padding: 40px 25px;
+    border: 1px solid #ffffff; 
+}
+.box:hover, .box:focus{
+    border: 1px solid #131313;
+    box-shadow: 1px 1px 10px #000000;
+}
+.box span{
+    font-size: 3rem;
+    color: #d1d1d1;
+}
+.box h3{
+    padding: 20px 0 10px 0;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+}
+.box p{
+    color: #9a9a9a;
+    font-size: .92rem;
+    line-height: 1.35;
+}
+                                                                /* My Skills */
+
+.myskills{
+    min-height: 100vh;
+}
+.myskills h1{
+    font-size: 2.7rem;
+    padding-top: 40px ;
+    color: #e8e8e8;
+}
+.skill-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+.skill-content{
+    flex-basis: 43%;
+}
+.skill-content p{
+    padding-bottom: 20px;
+    font-size: 1rem;
+    color: #b1b1b1;
+}
+.skill-graphics{
+    flex-basis: 43%;
+}
+.number{
+    font-family: number;
+    font-weight: 600;
+}
+.parent{
+    margin-bottom: 20px;
+}
+.child{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 4px;
+}
+.bar{
+    width: 100%;
+    height: 14px;
+    border: 1px solid white;
+}
+.b-per{
+    width: 90%;
+    background: white;
+    height: 13px;
+}
+.js{
+    width: 70%;
+    background: white;
+    height: 13px;
+}
+.wd{
+    width: 60%;
+    background: white;
+    height: 13px;
+}
+
+.react, .backend{
+    width: 40%;
+    background: white;
+    height: 13px;
+}
+.python{
+    width: 10%;
+    background: white;
+    height: 13px;
+}
+
+
+                                                          /* Quote section */
+
+
+.quote{
+    min-height: 70vh;
+    background: white;
+    border-radius: 15px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.quote h1{
+    color: #000000;
+    text-align: center;
+    line-height: 1.4;
+    padding-bottom: 15px;
+    font-size: 2rem;
+}
+.quote button{
+    background: #131313;
+    color: white;
+    border: 1px solid #131313;
+    border-radius: 4px;
+    padding: 12px 20px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+.quote button:hover, button:focus{
+    background: none;
+    color: #131313;
+}
+
+                                                            /* Testimonials */
+
+.myworks{
+    margin-top: 100px;
+    min-height: 100vh;
+}
+.myworks h1{
+    font-size: 2.7rem;
+    padding-top: 40px ;
+    color: #e8e8e8;
+}
+.center{
+    min-height:70vh ;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.work-box{
+    width: 450px;
+    height: 220px;
+    border: 2px solid #9a9a9a;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center a{
+    text-decoration: none;
+    color: #9a9a9a;
+}
+.work-box span{
+    font-size: 60px;
+    
+}
+.center p {
+    padding-top: 20px;
+    color: #b1b1b1;
+}
+
+                                                             /* Contact Me */
+
+.contact-me{
+    min-height: 95vh;
+}
+.contact-me h1{
+    font-size: 2.7rem;
+    padding-top: 40px ;
+    color: #e8e8e8;
+}
+.contact-box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.contact-details{
+    flex-basis: 45%;
+}
+.contact-details h1{
+    font-family: Jumper;
+    font-size: 3.4rem;
+}
+.contact-details p{
+    padding: 20px 0 5px 0;
+}
+.contact-details a{
+    text-decoration: none;
+    color:#9a9a9a;
+}
+.contact-details a i{
+    color: white;
+    font-size: 1.5rem;
+    margin: 5px 14px 0  0;
+    padding-bottom: 15px;
+}
+.contact-details a i:hover, .contact-details a i:focus {
+    color:#dbdbdb;
+}
+.contact-form{
+    flex-basis: 45%;
+}
+form input, textarea{
+    width: 100%;
+    font-family: 'Montserrat';
+    display: block;
+    border: none;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 2px;
+}
+form button{
+    display: block;
+    border: none;
+    color: #000000;
+    float: right;
+    font-size: .9rem;
+    background: #ffffff;
+    padding: 8px 25px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+form button:hover, form button:focus{
+    box-shadow: 1px 1px 5px #ffffff;
+}
+
+                                                        /* Responsive for Mobile and tablet  screen*/
+
+
+
+@media (max-width: 1250px) {
+    body{
+        padding: 0 60px;
+    }
+}
+
+@media (max-width: 1100px) {
+    body{
+        padding: 0 40px;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    body{
+        padding: 0px 25px;
+    }
+    .nav{
+        display: none;
+    }
+    header{
+        padding: 20px 0;
+        display: block;
+        text-align: center;
+    }
+    .logo p{
+        font-size: 2.4rem;
+    }
+    .landing-page{
+        flex-flow: column-reverse;
+    }
+    .l-image img{
+        margin-top: 25px;
+        max-width: 100%;
+        height: 250px;
+    }
+    .l-content h1{
+        font-size: 2.9rem;
+        margin: 40px 0 25px 0;
+        text-align: center;
+    }
+    .service-box{
+        flex-flow: column;
+        margin-top: 50px;
+    }
+    .box{
+        margin-bottom: 30px;
+        padding: 20px 16px;
+    }
+    .skill-box{
+        flex-flow: column-reverse;
+    }
+    .skill-content{
+        display: none;
+    }
+    .skill-graphics{
+        width: 100%;
+    }
+
+    .quote{
+        min-height: 40vh;
+        padding: 0 25px;
+    }
+    .quote h1{
+        font-size: 1.5rem;
+    }
+    .myworks{
+        margin-top: 50px;
+        min-height: auto;
+    }
+    .center{
+        min-height: 50vh;
+    }
+    .contact-me{
+        padding-bottom: 40px;
+    }
+    .contact-box{
+        flex-flow: column;
+        margin-top: 20px;
+    }
+    .contact-details h1{
+        font-size: 2.7rem;
+    }
+    form input, textarea {
+        width: 100%;
+    }
+}
+
+@media (max-width:695px) {
+    .l-content h1{
+        font-size: 2.4rem;
+    }
+    .quote{
+        min-height: 42vh;
+        padding: 0 25px;
+    }
+}
+@media (max-width:580px) {
+    .l-content h1{
+        font-size: 1.9rem;
+        text-align: left;
+    }
+    .quote{
+        min-height: 40vh;
+        padding: 0 25px;
+    }
+    .quote h1{
+        font-size: 1.4rem;
+    }
+}
+@media (max-width: 475px) {
+    .l-content h1{
+        font-size: 1.7rem;
+    }
+    .work-box{
+        width: 100%;
+    }
+    .quote h1{
+        font-size: 1.25rem;
+    }
+
+}
+@media (max-width:440px) {
+    .l-content h1{
+        font-size: 1.4rem;
+    }
+}
+
+
+
