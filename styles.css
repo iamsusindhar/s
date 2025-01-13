@@ -377,6 +377,9 @@ form button:hover, form button:focus{
 
 
 @media (max-width: 1024px) {
+    br{
+        display: none;
+    }
     body{
         padding: 0px 18px;
     }
@@ -412,14 +415,19 @@ form button:hover, form button:focus{
         margin-bottom: 30px;
         padding: 20px 16px;
     }
+    .myskills{
+        min-height: auto;
+    }
     .skill-box{
-        flex-flow: column-reverse;
+        flex-flow: column;
     }
     .skill-content{
-        display: none;
+        margin-bottom: 40px;
     }
+    
     .skill-graphics{
         width: 100%;
+        margin-bottom: 80px;
     }
 
     .quote{
@@ -437,7 +445,8 @@ form button:hover, form button:focus{
         min-height: 50vh;
     }
     .contact-me{
-        padding-bottom: 40px;
+        padding-bottom: 55px;
+        min-height: auto;
     }
     .contact-box{
         flex-flow: column;
@@ -456,7 +465,7 @@ form button:hover, form button:focus{
         font-size: 2.4rem;
     }
     .quote{
-        min-height: 42vh;
+        min-height: 48vh;
         padding: 0 25px;
     }
 }
@@ -487,7 +496,7 @@ form button:hover, form button:focus{
 }
 @media (max-width:440px) {
     .l-content h1{
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
 }
 
