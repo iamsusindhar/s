@@ -238,7 +238,7 @@ img{
     padding-bottom: 15px;
     font-size: 2rem;
 }
-.quote button{
+.quote a{
     background: #131313;
     color: white;
     border: 1px solid #131313;
@@ -246,8 +246,9 @@ img{
     padding: 12px 20px;
     cursor: pointer;
     letter-spacing: 1px;
+    text-decoration: none;
 }
-.quote button:hover, button:focus{
+.quote a:hover, a:focus{
     background: none;
     color: #131313;
 }
@@ -356,6 +357,8 @@ form button{
     font-weight: 600;
 }
 form button:hover, form button:focus{
+    background: white;
+    color: black;
     box-shadow: 1px 1px 5px #ffffff;
 }
 
@@ -499,6 +502,3 @@ form button:hover, form button:focus{
         font-size: 1.6rem;
     }
 }
-
-
-
